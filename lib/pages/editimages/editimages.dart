@@ -25,7 +25,7 @@ class _EditImagesState extends State<EditImages> {
 
   Crud crud = new Crud();
 
-  var urlEditImages = "http://${serverName}/imagehome/editimagehome.php";
+  var urlEditImages = "https://${serverName}/imagehome/editimagehome.php";
 
   // For ImagePicker Choose Image
 
@@ -35,7 +35,7 @@ class _EditImagesState extends State<EditImages> {
   }
 
   Future _chooseCamerataxi() async {
-    filetaxi = await myChooseGallery();
+    filetaxi = await myChooseCamera();
     setState(() {});
   }
 
@@ -45,7 +45,7 @@ class _EditImagesState extends State<EditImages> {
   }
 
   Future _chooseCamerafood() async {
-    filefood = await myChooseGallery();
+    filefood = await myChooseCamera();
     setState(() {});
   }
 
@@ -55,7 +55,7 @@ class _EditImagesState extends State<EditImages> {
   }
 
   Future _chooseCamerapay() async {
-    filepay = await myChooseGallery();
+    filepay = await myChooseCamera();
     setState(() {});
   }
 
@@ -65,7 +65,7 @@ class _EditImagesState extends State<EditImages> {
   }
 
   Future _chooseCamerasa() async {
-    filesa = await myChooseGallery();
+    filesa = await myChooseCamera();
     setState(() {});
   }
 
@@ -75,7 +75,7 @@ class _EditImagesState extends State<EditImages> {
   }
 
   Future _chooseCamerasp() async {
-    filesp = await myChooseGallery();
+    filesp = await myChooseCamera();
     setState(() {});
   }
 
@@ -85,7 +85,7 @@ class _EditImagesState extends State<EditImages> {
   }
 
   Future _chooseCamerasq() async {
-    filesq = await myChooseGallery();
+    filesq = await myChooseCamera();
     setState(() {});
   }
 
@@ -95,7 +95,7 @@ class _EditImagesState extends State<EditImages> {
   }
 
   Future _chooseCamerarq() async {
-    filerq = await myChooseGallery();
+    filerq = await myChooseCamera();
     setState(() {});
   }
 
@@ -105,7 +105,7 @@ class _EditImagesState extends State<EditImages> {
   }
 
   Future _chooseCameracharge() async {
-    filecharge = await myChooseGallery();
+    filecharge = await myChooseCamera();
     setState(() {});
   }
 
