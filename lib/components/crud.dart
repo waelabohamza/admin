@@ -295,7 +295,7 @@ class Crud {
     var stream = new http.ByteStream(imagefile.openRead());
     stream.cast();
     var length = await imagefile.length();
-    var uri = Uri.parse("http://$server_name/offers/addoffers.php");
+    var uri = Uri.parse("https://$server_name/offers/addoffers.php");
     var request = new http.MultipartRequest("POST", uri);
     request.headers.addAll(myheaders);
     var multipartFile = new http.MultipartFile("file", stream, length,

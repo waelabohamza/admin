@@ -132,7 +132,7 @@ class _AddOffersState extends State<AddOffers> {
               // Text("تكاسي")  ,
               Container(
                 padding: EdgeInsets.symmetric(vertical: 30, horizontal: 30),
-                child: RaisedButton(
+                child: MaterialButton(
                   child: Text(" اضف الصورة",
                       style: TextStyle(fontSize: 25, color: Colors.white)),
                   color: Colors.red,
@@ -147,8 +147,8 @@ class _AddOffersState extends State<AddOffers> {
                       : Image.file(file)),
               Container(
                 padding: EdgeInsets.symmetric(vertical: 30, horizontal: 30),
-                child: RaisedButton(
-                  child: Text("اضافة قسم",
+                child: MaterialButton(
+                  child: Text("اضافة عرض",
                       style: TextStyle(fontSize: 25, color: Colors.white)),
                   color: Colors.red,
                   onPressed: addOffers,
